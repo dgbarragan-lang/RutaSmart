@@ -1,0 +1,52 @@
+/* ============================================
+   ARCHIVO: variables.css
+   PROPOSITO: Definir las variables CSS (custom
+   properties) que centralizan la paleta de
+   colores, tipografia, espaciados y otros
+   valores reutilizados en todo el proyecto.
+    ============================================ */
+    
+:root {
+  /* Paleta de colores asignada */
+  --color-principal: #40566B;      /* Azul oscuro */
+  --color-secundario: #B8D8EB;     /* Azul pastel */
+  --color-celeste: #D6EEF5;        /* Celeste */
+  --color-acento: #F4C7A1;         /* Naranja suave */
+ 
+  /* Variaciones derivadas para contraste y jerarquia */
+  --color-principal-oscuro: #2E3E4D;
+  --color-acento-oscuro: #E3A876;
+  --color-fondo: #FBFDFE;
+  --color-fondo-alterno: var(--color-celeste);
+  --color-texto: #24313C;
+  --color-texto-suave: #55697A;
+  --color-blanco: #FFFFFF;
+ 
+  /* Tipografia */
+  --fuente-titulo: "Space Grotesk", "Segoe UI", sans-serif;
+  --fuente-texto: "Inter", "Segoe UI", sans-serif;
+ 
+  /* Escala tipografica (mobile first) */
+  --tam-h1: 2rem;
+  --tam-h2: 1.6rem;
+  --tam-h3: 1.2rem;
+  --tam-texto: 1rem;
+  --tam-pequeno: 0.875rem;
+ 
+  /* Espaciados */
+  --espacio-xs: 0.5rem;
+  --espacio-sm: 1rem;
+  --espacio-md: 1.5rem;
+  --espacio-lg: 2.5rem;
+  --espacio-xl: 4rem;
+ 
+  /* Bordes y sombras */
+  --radio-borde: 14px;
+  --radio-borde-sm: 8px;
+  --sombra-suave: 0 8px 24px rgba(64, 86, 107, 0.12);
+  --sombra-tarjeta: 0 10px 30px rgba(64, 86, 107, 0.10);
+ 
+  /* Transiciones */
+  --transicion-rapida: 0.2s ease;
+  --transicion-media: 0.4s ease;
+}
