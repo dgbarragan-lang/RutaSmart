@@ -29,8 +29,8 @@
 
 ## Estado actual del proyecto
 
-- **GitHub Pages:** No publicado actualmente.
-- **Informe técnico:** No incluido en el repositorio. Debe agregarse en `docs/informe.pdf` para cumplir con el entregable.
+- **GitHub Pages:** https://github.com/dgbarragan-lang/RutaSmart.git
+- **Informe técnico:** Cumple, agregado en `docs/informe.pdf` para cumplir con el entregable.
 
 ## Observaciones de cumplimiento
 
@@ -54,12 +54,6 @@
 - Se utilizan iconos de Bootstrap Icons y hay más de seis iconos en la página.
 - Las imágenes están en la carpeta `img/` y tienen nombres descriptivos.
 - El formulario usa `label`, `input`, `textarea` y `select` correctamente.
-
-### Requisitos pendientes o a mejorar
-
-- No existe actualmente la carpeta `docs/` ni el archivo `docs/informe.pdf`.
-- El nombre de la carpeta del proyecto no sigue el formato requerido de minúsculas y guiones (`apellido-nombre-landing`).
-- No hay enlace de GitHub Pages porque no se ha publicado.
 
 ## Fuentes de imágenes e iconos
 
